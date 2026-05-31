@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 5000
 
 # Command to run node.js in a docker container
-CMD ["node", "app.js"]
+CMD ["node", "server.js"]
