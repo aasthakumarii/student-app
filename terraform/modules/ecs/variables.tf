@@ -35,7 +35,7 @@ variable "mysql_pass" {
 }
 
 variable "backend_image" {
-  default = "160900807677.dkr.ecr.us-east-1.amazonaws.com/backend-app:latest"
+  default = "500782030335.dkr.ecr.us-east-1.amazonaws.com/backend-app:latest"
 }
 
 variable "db_host" {
@@ -55,7 +55,7 @@ variable "db_name" {
 }
 
 variable "frontend_image" {
-  default = "160900807677.dkr.ecr.us-east-1.amazonaws.com/frontend-app:latest"
+  default = "500782030335.dkr.ecr.us-east-1.amazonaws.com/frontend-app:latest"
 }
 
 variable "service_name" {
